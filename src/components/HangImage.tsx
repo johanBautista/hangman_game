@@ -16,8 +16,6 @@ interface Props{
 }
 
 export const HangImage = ({imageNumber}:Props) => {
-    // console.log(imageNumber,'hijo');
-    
     
   if (imageNumber >= 9) {
     imageNumber = 9;

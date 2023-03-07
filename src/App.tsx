@@ -38,7 +38,6 @@ function App() {
     setAttempts(0)
     setLose(false)
     setWon(false)
-
   }
 
   useEffect(() => {
@@ -50,7 +49,6 @@ function App() {
   useEffect(() => {
     const currentHiddenWord = hiddenWord.split(' ').join('')
     if (currentHiddenWord === word) {
-      console.log('ok');
       setWon(true)
     }
   }, [hiddenWord])
